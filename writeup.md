@@ -15,11 +15,12 @@ This assignment completes our movie chatbot system by implementing action functi
 ## Reflection Questions
 
 1. What are some key programming concepts or techniques that you learned while completing this assignment?
-
+I learned what pattern matching is and conditional logic. These two skills were cruical in completing this assignment. 
 
 
 2. How does the overall movie chatbot system work? Explain the flow from when a user types a query to when they receive an answer.
+When the users types in a question the chatbot(computer) tries to match a pattern to the input. The chatbot then receives the information and outputs it into the users. 
 
 
 
-3. What are some real-world applications where this type of pattern-matching chatbot system could be useful? How might you extend or improve this system for practical use?
+3. What are some real-world applications where this type of pattern-matching chatbot system could be useful? How might you extend or improve this system for practical use? Some real-world appllication where this type of pattern-matching could be useful is in the world of finance to predict the markets days a head through using this pattern. But in order to adapt it to the world of finance we need to switch the movie datebase to a finance database that has information about the different markets and their past trends. 
