@@ -78,7 +78,7 @@ def title_by_year_range(matches: List[str]) -> List[str]:
         in ["1991", "1994"] you will get movies made in 1991, 1992, 1993 & 1994)
     """
 
-    start_year = int([matches[0]])
+    start_year = int(matches[0])
     end_year = int(matches[1])
     result = []
 
@@ -123,6 +123,7 @@ def title_after_year(matches: List[str]) -> List[str]:
     for movie in movie_db:
         if get_year(movie) > year:
             result.append(get_title(movie))
+    print (result)
     return result
 
 
@@ -319,7 +320,7 @@ if __name__ == "__main__":
     ), "failed title_before_year test"
     assert isinstance(title_after_year(["1990"]), list), "title_after_year not returning a list"
     assert sorted(title_after_year(["1990"])) == sorted(
-        ["boyz n the hood", "dead again", "the crying game", "flirting", "malcolm x"]
+        ["boyz n the hood", "dead again", "the crying game", "flirting", "malcolm x", "american gangster"]
     ), "failed title_after_year test"
     assert isinstance(director_by_title(["jaws"]), list), "director_by_title not returning a list"
     assert sorted(director_by_title(["jaws"])) == sorted(
