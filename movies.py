@@ -435,4 +435,18 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "spike lee",
         ],
     ),
+    (
+        "american gangster",
+        " ridley scott",
+        2007,
+        [
+            "denzel washington",
+            "lymari nadal",
+            "russel crowe",
+            "carla gugino",
+            "josh brolin",
+            "idris elba "
+
+        ]
+    ),
 ]
